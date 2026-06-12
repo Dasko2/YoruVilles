@@ -1,0 +1,27 @@
+# Configuration Générale
+settings:
+  claim-world: "world_survie"
+  default-max-claims: 20
+  protect-unclaimed-blocks: true
+  
+# Paramètres de Performance (Anti-Lag)
+performance:
+  redstone-limit-per-chunk: 50
+  hopper-limit-per-chunk: 10
+  entity-limit-per-town: 50
+  max-players-per-town: 20
+
+# Téléportation
+teleportation:
+  cooldown: 3
+  cancel-on-move: true
+  min-distance-to-danger: 10
+
+# Configuration GUI (Mapping des items/slots)
+gui:
+  main-menu-title: "&8Menu Ville"
+  bank-menu-title: "&8Trésor de la ville"
+  items:
+    spawn-teleport: "ENDER_PEARL"
+    bank-deposit: "GOLD_INGOT"
+    rank-settings: "NAME_TAG"
